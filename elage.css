@@ -1,0 +1,170 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+.inner {
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+  }
+header {
+    position: fixed;
+    width: 100%;
+    
+    background: #000;
+    transition: 0.7s all;
+    z-index: 100;
+  }
+#headda{
+    list-style: none;
+}
+nav li {
+    display: inline;
+    float: left;
+  }
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    transition: 0.3s all;
+  }
+  
+  nav a:hover {
+    background: red;
+  }
+  .logo{
+    position: fixed;  
+    display: inline-block;
+    width: 70px;
+    height: auto;
+    right: 20px;
+    border: 1px white solid;
+    border-radius: 9px;
+  }
+  .name{
+    position: fixed;
+    display: inline-block;  
+    color: #fff;
+      right: 100px;
+      width: 200px;
+      height: 30px;
+      font-size: 25px;
+      text-align: center;
+      margin-top: 9px;
+      font-family: 'Bungee';
+  }
+  .sifaris{
+    position: fixed;  
+  left: 650px;
+  margin: 0px;
+  padding: 0px;
+  top: 8px;
+}
+.main{
+    display: inline-block; 
+    position: fixed;
+      width: 1100px;
+      height: 600px;
+      top: 120px;
+      right: 230px;
+      align-items: center;
+      
+
+      
+
+      background-color: white;
+      border-radius: 10px;
+  }
+  #unvn{
+      background-color: #fff;
+      font-size: 25px;
+    left: 50px;
+    top: 12px;
+    list-style: none;
+  }
+  .unvnbas{
+    background-color: #fff;
+    font-size: 40px;
+    position: absolute;
+    left: 50px;
+    top: 12px;
+    margin: 0%;
+  }
+ .unvnnn{
+      background-color: #fff;
+      position: absolute;
+      display: inline-block;
+      left: 15px;
+      top: 70px;
+  }
+  #is{
+      background-color: #fff;
+      position: absolute;
+
+  }
+  .is1{
+      left: 400px;
+      top: 70px;
+  }
+  .is2{
+    left: 400px;
+    top: 180px;
+}
+.is3{
+    left: 400px;
+    top: 290px;
+}
+.is4{
+    left: 400px;
+    top: 400px;
+}
+#nomre{
+    background-color: #fff;
+    position: absolute;
+
+}
+.nmr1{
+    top: 80px;
+    left: 650px;
+}
+.nmr2{
+    top: 190px;
+    left: 650px;
+}
+.nmr3{
+    top: 300px;
+    left: 650px;
+}
+.nmr4{
+    top: 410px;
+    left: 650px;
+}
+#info{
+    background-color: #fff;
+    position: absolute;
+
+}
+.inf1{
+    top: 80px;
+    left: 850px;
+}
+.inf2{
+    top: 190px;
+    left: 850px;
+}
+.inf3{
+    top: 300px;
+    left: 850px;
+}
+.inf4{
+    top: 410px;
+    left: 850px;
+}
+.footda{
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    left: 30%;
+    top: 83%;
+}

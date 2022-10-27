@@ -1,0 +1,130 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+.inner {
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+  }
+header {
+    position: fixed;
+    width: 100%;
+    
+    background: #000;
+    transition: 0.7s all;
+    z-index: 100;
+  }
+li{
+    list-style: none;
+}
+nav li {
+    display: inline;
+    float: left;
+  }
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    transition: 0.3s all;
+  }
+  
+  nav a:hover {
+    background: red;
+  }
+  .logo{
+    position: fixed;  
+    display: inline-block;
+    width: 70px;
+    height: auto;
+    right: 20px;
+    border: 1px white solid;
+    border-radius: 9px;
+  }
+  .name{
+    position: fixed;
+    display: inline-block;  
+    color: #fff;
+      right: 100px;
+      width: 200px;
+      height: 30px;
+      font-size: 25px;
+      text-align: center;
+      margin-top: 9px;
+      font-family: 'Bungee';
+  }
+  .sifaris{
+        position: fixed;  
+      left: 650px;
+      margin: 0px;
+      padding: 0px;
+      top: 8px;
+  }
+  .main{
+    display: inline-block; 
+    position: fixed;
+      width: 1100px;
+      height: 600px;
+      top: 120px;
+      right: 230px;
+      align-items: center;
+      
+
+      
+
+      background-color: white;
+      border-radius: 10px;
+  }
+  input{
+      position: absolute;
+      left: 22%;
+      top: 60%;
+      width: 600px;
+      height: 50px;
+
+      color: rgb(241, 237, 237);
+      background-color: #000;
+      font-size: 25px;
+      border-radius: 10px;
+    
+  }
+ .flags{
+     height: 270px;
+     position: absolute;
+     left: 30%;
+     top: 5%;
+ }
+ .search{
+     width:52px;
+     background-color: white;
+     position: relative;
+     left: 78%;
+     top: 57%;
+     cursor: pointer;
+     
+ }
+ .mehsul{
+     background-color: white;
+     display: inline-block;
+     position: relative;
+     text-align: center;
+     top: 70%;
+     left: 27%;
+     font-size: 20px;
+ }
+ .maintvo{
+    display: block; 
+    position: fixed;
+      width: 1100px;
+      height: 600px;
+      top: 2000px;
+      right: 230px;
+      align-items: center;
+      
+
+      
+
+      background-color: white;
+      border-radius: 10px;
+  }

@@ -1,0 +1,161 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+.inner {
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+  }
+header {
+    position: fixed;
+    width: 100%;
+    
+    background: #000;
+    transition: 0.7s all;
+    z-index: 100;
+  }
+#headda{
+    list-style: none;
+}
+nav li {
+    display: inline;
+    float: left;
+  }
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    transition: 0.3s all;
+  }
+  
+  nav a:hover {
+    background: red;
+  }
+  .logo{
+    position: fixed;  
+    display: inline-block;
+    width: 70px;
+    height: auto;
+    right: 20px;
+    border: 1px white solid;
+    border-radius: 9px;
+  }
+  .name{
+    position: fixed;
+    display: inline-block;  
+    color: #fff;
+      right: 100px;
+      width: 200px;
+      height: 30px;
+      font-size: 25px;
+      text-align: center;
+      margin-top: 9px;
+      font-family: 'Bungee';
+  }
+  .sifaris{
+    position: fixed;  
+  left: 650px;
+  margin: 0px;
+  padding: 0px;
+  top: 8px;
+}
+.main{
+    display: inline-block; 
+    position: fixed;
+      width: 1100px;
+      height: 600px;
+      top: 120px;
+      right: 230px;
+      align-items: center;
+      
+
+      
+
+      background-color: white;
+      border-radius: 10px;
+  }
+  h4{
+      background-color: white;
+      font-size: 30px;
+      letter-spacing: 1px;
+  }
+  #tarif{
+      background-color: rgb(255, 255, 255);
+      list-style: none;
+      letter-spacing: 1px;
+      display: inline-block;
+      font-family: 'Righteous';
+      
+  }
+  #tariff{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    letter-spacing: 1px;
+    font-family: 'Righteous';
+    display: inline-block;
+    
+}
+.tr{
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    left: 110px;
+    top: 40px;
+    padding: 1px;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+.tr:hover{
+    background-color:black ;
+    transition: all 0.8s;
+}
+.usa{
+    position: relative;
+    display: inline-block;
+    left: 400px;
+    top: 40px;
+    width: 200px;
+    background-image: linear-gradient(red,blue);
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+.ul1{
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    font-size: 50px;
+    left: 65px;
+   background-color: #fff;
+}
+#tarif:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    transition: 0.7s all;
+    border-radius: 9px;
+}
+.ul2{
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    font-size: 50px;
+    left: 580px;
+}
+#tariff:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    transition: 0.7s all;
+    border-radius: 9px;
+}
+.tetbig{
+    background-color: #fff;
+    left: 32%;
+    top: 83%;
+    position:absolute ;
+    text-align: center;
+}

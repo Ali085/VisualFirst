@@ -1,0 +1,148 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+.inner {
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+  }
+header {
+    position: fixed;
+    width: 100%;
+    
+    background: #000;
+    transition: 0.7s all;
+    z-index: 100;
+  }
+#headda{
+    list-style: none;
+}
+nav li {
+    display: inline;
+    float: left;
+  }
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    transition: 0.3s all;
+  }
+  
+  nav a:hover {
+    background: red;
+  }
+  .logo{
+    position: fixed;  
+    display: inline-block;
+    width: 70px;
+    height: auto;
+    right: 20px;
+    border: 1px white solid;
+    border-radius: 9px;
+  }
+  .name{
+    position: fixed;
+    display: inline-block;  
+    color: #fff;
+      right: 100px;
+      width: 200px;
+      height: 30px;
+      font-size: 25px;
+      text-align: center;
+      margin-top: 9px;
+      font-family: 'Bungee';
+  }
+  .sifaris{
+    position: fixed;  
+  left: 650px;
+  margin: 0px;
+  padding: 0px;
+  top: 8px;
+}
+.main{
+    display: inline-block; 
+    position: fixed;
+      width: 562px;
+      height: 400px;
+      top: 120px;
+      right: 470px;
+      align-items: center;
+      
+
+      
+
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      box-shadow:2px 2px 3px 1px gray;
+  }
+  h1{
+      background-color: white;
+      position: absolute;
+      left: 60px;
+      top: 20px;
+  }
+  #par{
+      background-color: white;
+      
+      left: 80px;
+      position: absolute;
+  }
+  .inp1{
+      background-color:whitesmoke;
+      left: 80px;
+      position:absolute;
+      width: 400px;
+      height: 40px;
+      top: 155px;
+      font-size: 19px;
+  }
+  .p1{
+      font-size: 20px;
+      top: 100px;
+  }
+  .inp2{
+    background-color:whitesmoke;
+    left: 80px;
+    position:absolute;
+    width: 400px;
+    height: 40px;
+    top: 250px;
+    font-size: 19px;
+  }
+  .p2{
+      top: 195px;
+      display: inline-block;
+      font-size: 20px;
+  }
+  button{
+      background-color: #000;
+      color: white;
+      position: absolute;
+      left: 400px;
+      top: 310px;
+      border-radius: 10px;
+      width: 70px;
+      height: 40px;
+      font-size: 19px;
+      cursor: pointer;
+  }
+  button:hover{
+    background-color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+    transition: 0.5s ease-out;
+    color: white;
+    transition: all 0.9s;
+  }
+  .sifre{
+      background-color: white;
+      position: absolute;
+      left: 70px;
+      top: 320px;
+      text-decoration: none;
+      color: rgb(19, 13, 13);
+  }
+  .sifre::after{
+      color: rgb(19, 13, 13);
+  }
